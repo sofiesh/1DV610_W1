@@ -1,0 +1,69 @@
+/* Styling */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+/* Body styling reused from my own project in 1DV026 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #8ab5e9;
+    background-image: linear-gradient(to bottom right, #629fe9, #fad0c4);
+}
+
+main {
+    flex-direction: column;
+}
+
+#helloWorld {
+    background-color: rgb(183, 238, 188);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+#asciiName {
+    background-color: rgb(247, 247, 207);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+#generatePoem {
+    background-color: rgb(244, 198, 250);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+#poemOutput {
+    width: 400px;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    word-wrap: break-word;
+    overflow-y: auto;
+}
+
+#zooAnimal {
+    background-color: rgb(190, 246, 203);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: rgb(237, 185, 237);
+    border-radius: 5px;
+    border-color: violet;
+}
