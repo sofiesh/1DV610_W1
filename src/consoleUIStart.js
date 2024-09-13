@@ -8,11 +8,9 @@ const rl = readline.createInterface({
     output: process.stdout
 })
 
-function selectOperator (userInput) {
-    console.log('Skriv räknesätt: ')
-    let userInput = rl.input
-    console.log('userInput: ' + userInput)
-}
+rl.question('what do you want to calculate?', input => {
+    console.log(input)
+})
 
 // function getUserInput (selectOperator, firstNumber, secondNumber) {
 //     console.log('Välj räknesätt: ')
@@ -26,7 +24,7 @@ function selectOperator (userInput) {
 //     console.log('Skriv ett andra tal: ')
 // }
 
-selectOperator()
+// selectOperator()
 
 
 
